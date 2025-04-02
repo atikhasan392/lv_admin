@@ -12,10 +12,10 @@ class DashboardBreadcrumb extends Component
      * Create a new component instance.
      */
     public function __construct(
-        public string  $title = 'Not defined',
-        public string  $route = '#',
-        public string  $icon = 'fa-solid fa-house',
-        public string  $buttonText = 'My Home',
+        public string $title = 'Not defined',
+        public string $route = '#',
+        public string $icon = 'fa-solid fa-house',
+        public string $buttonText = 'My Home',
     ) {
         //
     }

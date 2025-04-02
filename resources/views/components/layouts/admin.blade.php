@@ -11,7 +11,6 @@
 </head>
 <body id="page-top">
     <div id="wrapper">
-        <x-dashboard-sidebar />
         <div id="content-wrapper" class="d-flex flex-column">
             <div id="content">
                 <x-dashboard-topbar />
@@ -23,13 +22,10 @@
             <x-dashboard-footer />
         </div>
     </div>
-    <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
     <x-dashboard-modal id="logoutModal" title="Ready to Leave?" actionUrl="javascript:;" actionText="Logout">
         <p>Select "Logout" below if you are ready to end your current session.</p>
     </x-dashboard-modal>
-
-    <!-- Bootstrap core JavaScript-->
-    <script src="{{ asset('assets/admin/jquery.min.js') }}"></script>
+    <script src="{{ asset('assets/admin/js/jquery.min.js') }}"></script>
     <script src="{{ asset('assets/admin/js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('assets/admin/js/jquery.easing.min.js') }}"></script>
     <script src="{{ asset('assets/admin/js/script.min.js') }}"></script>

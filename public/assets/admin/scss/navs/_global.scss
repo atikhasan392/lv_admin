@@ -1,9 +1,5 @@
-// Global styles for both custom sidebar and topbar compoments
-
-.sidebar,
 .topbar {
     .nav-item {
-        // Customize Dropdown Arrows for Navbar
         &.dropdown {
             .dropdown-toggle {
                 &::after {
