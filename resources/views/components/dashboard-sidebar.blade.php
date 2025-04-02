@@ -1,4 +1,4 @@
-<ul class="navbar-nav bg-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+<ul class="navbar-nav bg-primary sidebar sidebar-dark accordion sticky-sidebar" id="accordionSidebar">
     <a class="sidebar-brand d-flex align-items-center justify-content-center active" href="{{ route('admin.index') }}">
         <div class="sidebar-brand-icon"><i class="fa-solid fa-bolt"></i></div>
         <div class="sidebar-brand-text mx-3">E-Shopping</div>
