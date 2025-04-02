@@ -11,9 +11,18 @@ class DashboardModal extends Component
     /**
      * Create a new component instance.
      */
-    public function __construct()
+
+    public function __construct(
+        public string $id = 'dashboardModal',
+        public string $title = 'Dashboard Modal',
+        public string $actionUrl = 'javascript:;',
+        public string $actionText = 'Save changes'
+    )
     {
-        //
+        $this->id = $id;
+        $this->title = $title;
+        $this->actionUrl = $actionUrl;
+        $this->actionText = $actionText;
     }
 
     /**

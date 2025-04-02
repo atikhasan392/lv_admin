@@ -24,7 +24,9 @@
         </div>
     </div>
     <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
-    <x-dashboard-logout-modal />
+    <x-dashboard-modal id="logoutModal" title="Ready to Leave?" actionUrl="javascript:;" actionText="Logout">
+        <p>Select "Logout" below if you are ready to end your current session.</p>
+    </x-dashboard-modal>
 
     <!-- Bootstrap core JavaScript-->
     <script src="{{ asset('assets/admin/vendor/jquery/jquery.min.js') }}"></script>
