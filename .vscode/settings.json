@@ -1,0 +1,15 @@
+{
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "/public/assets/admin/css",
+            "sourceMap": true
+        }
+    ],
+    "liveSassCompile.settings.includeItems": [
+        "public/assets/admin/scss/style.scss"
+    ],
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true
+}
